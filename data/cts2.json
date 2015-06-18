@@ -1,0 +1,33 @@
+{
+    "basePath": "http://lexevs62cts2.nci.nih.gov",
+    "name": "Partner API v2",
+    "protocol": "rest",
+    "publicPath": "/lexevscts2",
+    "version": "2.0",
+    "resources": {
+
+        "CTS2 REST API": {
+            "methods": {
+
+
+                "SearchEntities": {
+                    "description": "test",
+                    "httpMethod": "GET",
+                    "name": "Search Entities",
+                    "parameters": {
+                        "q": {
+                            "default": "",
+                            "description": "query",
+                            "location": "path",
+                            "required": false,
+                            "type": "string"
+                        }
+                    },
+                    "path": "/entities"    
+
+                }
+               
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "klout": {
+        "name": "Klout v2 API"
+    },
+    "egnyte": {
+        "name": "Egnyte API"
+    },
+    "usatoday": {
+        "name": "USA TODAY Census API"
+    },
+    "foursquare": {
+        "name": "Foursquare (OAuth 2.0 Auth Code)"
+    },
+    "rdio": {
+        "name": "Rdio Beta (OAuth 2.0 Client Credentials)"
+    },
+    "rdio2": {
+        "name": "Rdio Beta (OAuth 2.0 Implicit Grant)"
+    },
+    "requestbin": {
+        "name": "Requestb.in"
+    },
+    "cts2": {
+        "name": "LexEVS CTS2 6.2 API Documentation (lexevs62cts2.nci.nih.gov/lexevscts2)",
+        "protocol": "http",
+        "baseURL": "lexevs62cts2.nci.nih.gov",
+        "publicPath": "/lexevscts2"
+    }
+}
